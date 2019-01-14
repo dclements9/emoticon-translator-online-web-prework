@@ -9,9 +9,9 @@ emoticon_hash = {get_meaning: {}, get_emoticon: {}}
  library.each do |emoticon, keystrokes|
     emoticon_hash["get_meaning"][keystrokes[1]] = emoticon
     emoticon_hash["get_emoticon"][keystrokes[0]] = keystrokes[1]
-    binding.pry
+    #binding.pry
  end
- binding.pry
+# binding.pry
   emoticon_hash
 end
 
