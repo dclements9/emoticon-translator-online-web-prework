@@ -14,7 +14,8 @@ emoticon_hash = {"get_meaning" => {}, "get_emoticon" => {}}
 end
 
 def get_japanese_emoticon(yaml_path, emoticon)
-  # code goes here
+
+  
 end
 
 
