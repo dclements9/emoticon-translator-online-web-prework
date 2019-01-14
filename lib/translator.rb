@@ -13,13 +13,11 @@ emoticon_hash = {"get_meaning" => {}, "get_emoticon" => {}}
   #binding.pry
 end
 
-
-
-
-
-def get_japanese_emoticon
+def get_japanese_emoticon(yaml_path, emoticon)
   # code goes here
 end
+
+
 
 def get_english_meaning
   # code goes here
