@@ -1,8 +1,6 @@
 require "yaml"
 require 'pry'
 
-require "yaml"
-
 def load_library(yaml_path)
 emoticon_hash = {get_meaning: {}, get_emoticon: {}}
     library = YAML.load_file(yaml_path)
