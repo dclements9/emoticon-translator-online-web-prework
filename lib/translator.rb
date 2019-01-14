@@ -10,6 +10,7 @@ emoticon_hash = {get_meaning: {}, get_emoticon: {}}
     emoticon_hash[:get_emoticon][keystrokes[0]] = keystrokes[1]
  end
   emoticon_hash
+  binding.pry
 end
 
 
