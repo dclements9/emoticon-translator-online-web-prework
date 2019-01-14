@@ -14,9 +14,15 @@ emoticon_hash = {"get_meaning" => {}, "get_emoticon" => {}}
 end
 
 def get_japanese_emoticon(yaml_path, emoticon)
-  load_library(yaml_path)
-
-end
+    emoticons_hash = load_library(yaml_path)
+        emoticons_hash["get_emoticon"].each do |english, japanese|
+            if english == emoticon
+                return japanese
+            else
+                "Sorry. The emoticon does not exist."
+            end
+        end
+  end
 
 
 
