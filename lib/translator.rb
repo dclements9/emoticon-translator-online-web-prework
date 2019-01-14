@@ -3,6 +3,12 @@ require "yaml"
 
 def load_library(yaml_path)
   library = YAML.load_file(yaml_path)
+  emoticon_hash = {
+    #Japanese
+    get_meaning: {},
+    # English
+    get_emoticon: {}
+  }
 end
 
 def get_japanese_emoticon
