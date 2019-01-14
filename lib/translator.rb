@@ -9,6 +9,7 @@ def load_library(yaml_path)
     # English
     get_emoticon: {}
   }
+  emoticon_hash
 end
 
 def get_japanese_emoticon
