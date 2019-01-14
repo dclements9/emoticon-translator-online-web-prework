@@ -16,6 +16,7 @@ end
 def get_japanese_emoticon(yaml_path, emoticon)
   emoticons_hash = load_library(yaml_path)
     emoticons_hash["get_emoticon"].each do |english, japanese|
+      binding.pry
       if english == emoticon
         return japanese
       else
