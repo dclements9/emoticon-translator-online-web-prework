@@ -14,6 +14,7 @@ emoticon_hash = {get_meaning: {}, get_emoticon: {}}
 
 
  end
+ binding.pry
   emoticon_hash
   binding.pry
 end
