@@ -19,7 +19,8 @@ def get_japanese_emoticon(yaml_path, emoticon)
     #  binding.pry
       if english_emoticon == emoticon
         return japanese_emoticon
-      elsif emoticons_hash["get_emoticon"].keys.include?(emoticon) == false
+      #elsif emoticons_hash["get_emoticon"].keys.include?(emoticon) == false
+    else
         return "Sorry, that emoticon was not found"
     end
   end
